@@ -6,11 +6,13 @@ using Clean.Service.Services;
 using Web_api_queuies.Model;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TipatCholAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class NursesController : ControllerBase
     {
         private readonly NurseService _service;

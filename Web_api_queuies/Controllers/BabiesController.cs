@@ -4,11 +4,13 @@ using Clean.Core.Entities;
 using Clean.Core.DTOs;
 using Clean.Service.Services;
 using Web_api_queuies.Model;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TipatCholAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class BabiesController : ControllerBase
     {
         private readonly BabyService _service;
