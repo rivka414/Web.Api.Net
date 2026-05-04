@@ -37,6 +37,5 @@
 1.  שכפל את הרפוזיטורי (Clone).
 2.  עדכן את ה-`ConnectionStrings` בקובץ `appsettings.json` לשרת ה-SQL המקומי שלך.
 3.  הרץ את הפקודה הבאה ב-Package Manager Console ליצירת בסיס הנתונים:
-    ```bash
     Update-Database
-    4. הרץ את הפרויקט (F5 ב-Visual Studio או dotnet run).
+4. הרץ את הפרויקט (F5 ב-Visual Studio או dotnet run).
